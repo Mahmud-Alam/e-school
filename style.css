@@ -1,0 +1,24 @@
+header{
+    background-color: #F0FFF0;
+}
+header .bg-light{
+    background-color: #F0FFF0 !important;
+}
+.navbar-brand{
+    width: 150px;
+    padding: 10px;
+}
+.navbar-brand img{
+    width: 100%;
+}
+.header-navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+}
+@media only screen and (min-width: 1500px){
+    .navbar-brand{
+        width: 200px;
+    }
+}
