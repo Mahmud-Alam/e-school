@@ -111,8 +111,67 @@ header .bg-light{
         padding-top: 40px;
         padding-bottom: 20px;
     }
+    .col-outside{
+        width: 50%;
+    }
+    .col-outside img{
+        width: 100%;
+        padding: 40px;
+    }
+    .col-inside{
+        margin: 20px 5px;
+        padding: 10px 0;
+        background-color: #F0FFF0;
+        border-radius: 20px;
+        transition: box-shadow .3s ease-in-out;
+    }
+    .row-topic{
+        margin-top:30px;
+    }
 }
 @media only screen and (max-width: 768px) and (orientation: landscape){
+    .color-orange, .color-gray{
+        font-size: 10px;
+        line-height: .5em;
+    }
+    .h1-banner{
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+    .btn-all{
+        font-size: 10px;
+        padding: 8px 24px;
+    }
+    .col-md-6{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .color-topic-h{
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .color-topic-p{
+        font-size: 10px;
+    }
+    .col-outside img{
+        width: 100%;
+        padding: 20px;
+    }
+    .col-inside{
+        margin: 10px 0px;
+        padding: 5px 5px;
+        background-color: #F0FFF0;
+        border-radius: 20px;
+        transition: box-shadow .3s ease-in-out;
+    }
+    .row-topic{
+        margin-top:30px;
+    }
+}
+@media only screen and (max-width: 1024px) and (orientation: portrait){
+
+}
+@media only screen and (max-width: 1024px) and (orientation: landscape){
 
 }
 @media only screen and (min-width: 1500px){
