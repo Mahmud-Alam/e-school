@@ -146,13 +146,13 @@ header .bg-light{
     font-weight: 700;
 }
 .course{
-    margin: 20px 0 50px;
+    margin: 0px 0 50px;
 }
 
 
 
-.img-testimonial{
-    
+.testimonial{
+    margin: 100px 0;
 }
 .testimonial img{
     width: 100%;
@@ -169,7 +169,8 @@ footer{
     width: 100%;
 }
 footer p{
-    line-height: 28px;
+    font-size: 12px;
+    line-height: 24px;
 }
 footer h4{
     font-size: 20px;
@@ -179,7 +180,7 @@ footer ul{
     padding: 0;
 }
 footer li{
-    font-size: 14px;
+    font-size: 12px;
     line-height: 2em;
     list-style-type: none;
     cursor: pointer;
