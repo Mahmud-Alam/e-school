@@ -10,6 +10,9 @@ button:active{
 button:focus{
     outline: none;
 }
+.add-shadow{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
+}
 header{
     background-color: #F0FFF0;
 }
@@ -62,23 +65,24 @@ header .bg-light{
     width: 100%;
 }
 .banner{
+    margin-top: 60px;
     background-color: #F0FFF0;
 }
-.col-outside{
+.col-outside-topic{
     text-align: center;
 }
-.col-outside img{
+.col-outside-topic img{
     width: 100%;
     padding: 30px 90px;
 }
-.col-inside{
+.col-inside-topic{
     margin: 60px 5px;
     padding: 10px 0;
     background-color: #F0FFF0;
     border-radius: 20px;
     transition: box-shadow .3s ease-in-out;
 }
-.col-inside:hover{
+.col-inside-topic:hover{
     cursor: pointer;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -94,6 +98,97 @@ header .bg-light{
 .color-topic-p{
     color: #585859;
 }
+
+
+
+.card{
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px lightgray;
+    transition: box-shadow .3s ease-in-out;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+    /* from getcssscan.com #24 no */
+}
+.card-body{
+    padding-bottom: 10px;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.color-purple{
+    color: #413960;
+}
+.course-headtext{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-title{
+    font-weight: 700;
+}
+.p-card{
+    font-size: 14px;
+    line-height: 24px;
+}
+.span-review{
+    color: #21B573;
+}
+.light-gray{
+    color: rgb(160, 160, 160);
+}
+.price{
+    font-weight: 700;
+}
+.course{
+    margin: 20px 0 50px;
+}
+
+
+
+.img-testimonial{
+    
+}
+.testimonial img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+footer{
+    color: white;
+    background-color: #282531;
+    padding:30px 0 5px;
+}
+.div-footer-logo img{
+    width: 100%;
+}
+footer p{
+    line-height: 28px;
+}
+footer h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+footer ul{
+    padding: 0;
+}
+footer li{
+    font-size: 14px;
+    line-height: 2em;
+    list-style-type: none;
+    cursor: pointer;
+}
+.margin-footer-li{
+    margin-top: 30px;
+}
+
+
 @media only screen and (max-width: 768px) and (orientation: portrait){
     .color-orange, .color-gray{
         font-size: 14px;
@@ -111,14 +206,14 @@ header .bg-light{
         padding-top: 30px;
         padding-bottom: 20px;
     }
-    .col-outside{
+    .col-outside-topic{
         width: 50%;
     }
-    .col-outside img{
+    .col-outside-topic img{
         width: 100%;
         padding: 40px;
     }
-    .col-inside{
+    .col-inside-topic{
         margin: 20px 5px;
         padding: 5px 0;
         border-radius: 10px;
@@ -161,11 +256,11 @@ header .bg-light{
     .color-topic-p{
         font-size: 10px;
     }
-    .col-outside img{
+    .col-outside-topic img{
         width: 100%;
         padding: 20px;
     }
-    .col-inside{
+    .col-inside-topic{
         margin: 10px 0px;
         padding: 5px 5px;
         border-radius: 8px;
@@ -178,7 +273,7 @@ header .bg-light{
     .banner{
         padding: 50px 0;
     }
-    .col-outside img{
+    .col-outside-topic img{
         padding: 30px 60px;
     }
     .row-topic{
@@ -206,11 +301,11 @@ header .bg-light{
     .btn-all{
         font-size: 18px;
     }
-    .col-outside img{
+    .col-outside-topic img{
         width: 100%;
         padding: 50px;
     }
-    .col-inside{
+    .col-inside-topic{
         margin: 10px 5px;
         padding: 5px 5px;
         border-radius: 8px;
@@ -240,11 +335,11 @@ header .bg-light{
     .btn-all{
         font-size: 18px;
     }
-    .col-outside img{
+    .col-outside-topic img{
         width: 100%;
         padding: 60px;
     }
-    .col-inside{
+    .col-inside-topic{
         margin: 10px 5px;
         padding: 5px 5px;
         border-radius: 8px;
@@ -263,5 +358,9 @@ header .bg-light{
     }
     .banner{
         padding:50px 0;
+    }
+    .img-testimonial{
+        width: 120px;
+        margin-right: 50px;
     }
 }
