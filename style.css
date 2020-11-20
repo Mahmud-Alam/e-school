@@ -186,21 +186,71 @@ header .bg-light{
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
-    
-}
-@media only screen and (min-width: 1025px) and (max-width: 1400px) and (orientation: landscape){
     .navbar-brand{
-        width: 120px;
+        width: 200px;
         padding: 10px 0;
+    }
+    .nav-link{
+        font-size: 18px;
     }
     .banner{
         padding: 50px 0;
     }
+    .color-orange, .color-gray{
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    .btn-sign-in{
+        font-size: 18px;
+    }
+    .btn-all{
+        font-size: 18px;
+    }
     .col-outside img{
-        padding: 30px 60px;
+        width: 100%;
+        padding: 50px;
+    }
+    .col-inside{
+        margin: 10px 5px;
+        padding: 5px 5px;
+        border-radius: 8px;
     }
     .row-topic{
-        margin-top:30px;
+        margin-top:50px;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1400px) and (orientation: landscape){
+    .navbar-brand{
+        width: 200px;
+        padding: 10px 0;
+    }
+    .nav-link{
+        font-size: 18px;
+    }
+    .banner{
+        padding: 50px 0;
+    }
+    .color-orange, .color-gray{
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    .btn-sign-in{
+        font-size: 18px;
+    }
+    .btn-all{
+        font-size: 18px;
+    }
+    .col-outside img{
+        width: 100%;
+        padding: 60px;
+    }
+    .col-inside{
+        margin: 10px 5px;
+        padding: 5px 5px;
+        border-radius: 8px;
+    }
+    .row-topic{
+        margin-top:80px;
     }
 }
 @media only screen and (min-width: 1500px){
