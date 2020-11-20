@@ -96,19 +96,19 @@ header .bg-light{
 }
 @media only screen and (max-width: 768px) and (orientation: portrait){
     .color-orange, .color-gray{
-        font-size: 12px;
+        font-size: 14px;
         line-height: 1.5em;
     }
     .h1-banner{
-        font-size: 1.5em;
+        font-size: 30px;
         line-height: 1.5em;
     }
     .btn-all{
-        font-size: 12px;
+        font-size: 14px;
         padding: 8px 24px;
     }
     .col-md-6{
-        padding-top: 40px;
+        padding-top: 30px;
         padding-bottom: 20px;
     }
     .col-outside{
@@ -120,19 +120,27 @@ header .bg-light{
     }
     .col-inside{
         margin: 20px 5px;
-        padding: 10px 0;
-        background-color: #F0FFF0;
-        border-radius: 20px;
-        transition: box-shadow .3s ease-in-out;
+        padding: 5px 0;
+        border-radius: 10px;
     }
     .row-topic{
         margin-top:30px;
+    }
+    .navbar-brand{
+        width: 150px;
+        padding: 10px 0;
+    }
+    .banner{
+        padding: 0 0;
     }
 }
 @media only screen and (max-width: 768px) and (orientation: landscape){
     .color-orange, .color-gray{
         font-size: 10px;
         line-height: .5em;
+    }
+    .banner{
+        padding: 0 0;
     }
     .h1-banner{
         font-size: 1.5em;
@@ -143,11 +151,11 @@ header .bg-light{
         padding: 8px 24px;
     }
     .col-md-6{
-        padding-top: 40px;
+        padding-top: 30px;
         padding-bottom: 20px;
     }
     .color-topic-h{
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.5em;
     }
     .color-topic-p{
@@ -160,19 +168,40 @@ header .bg-light{
     .col-inside{
         margin: 10px 0px;
         padding: 5px 5px;
-        background-color: #F0FFF0;
-        border-radius: 20px;
-        transition: box-shadow .3s ease-in-out;
+        border-radius: 8px;
     }
     .row-topic{
         margin-top:30px;
     }
 }
-@media only screen and (max-width: 1024px) and (orientation: portrait){
-
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait){
+    .banner{
+        padding: 50px 0;
+    }
+    .col-outside img{
+        padding: 30px 60px;
+    }
+    .row-topic{
+        margin-top:30px;
+    }
 }
-@media only screen and (max-width: 1024px) and (orientation: landscape){
-
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+    
+}
+@media only screen and (min-width: 1025px) and (max-width: 1400px) and (orientation: landscape){
+    .navbar-brand{
+        width: 120px;
+        padding: 10px 0;
+    }
+    .banner{
+        padding: 50px 0;
+    }
+    .col-outside img{
+        padding: 30px 60px;
+    }
+    .row-topic{
+        margin-top:30px;
+    }
 }
 @media only screen and (min-width: 1500px){
     .navbar-brand{
