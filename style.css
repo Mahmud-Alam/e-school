@@ -17,8 +17,8 @@ header .bg-light{
     background-color: #F0FFF0 !important;
 }
 .navbar-brand{
-    width: 150px;
-    padding: 10px;
+    width: 120px;
+    padding: 10px 0;
 }
 .navbar-brand img{
     width: 100%;
@@ -28,20 +28,102 @@ header .bg-light{
 }
 .navbar-nav li{
     padding: 0 15px;
-    font-weight: bold;
+    font-weight: 400;
 }
-.sign-in{
+.btn-sign-in{
     background-color: #21B573;
     color: white;
     padding: 8px 22px;
     border-radius: 20px;
     border: none;
 }
+.color-orange{
+    color: #FD511A;
+    line-height: 24px;
+}
+.color-green{
+    color: #21B573;
+}
+.color-gray{
+    color: #6C6B6B;
+    line-height: 36px;
+}
+.h1-banner{
+    font-weight: 700;
+}
+.btn-all{
+    color: white;
+    background-color: #21B573;
+    padding: 10px 36px;
+    border: none;
+    border-radius: 30px;
+}
+.img-banner{
+    width: 100%;
+}
+.banner{
+    background-color: #F0FFF0;
+}
+.col-outside{
+    text-align: center;
+}
+.col-outside img{
+    width: 100%;
+    padding: 30px 90px;
+}
+.col-inside{
+    margin: 60px 5px;
+    padding: 10px 0;
+    background-color: #F0FFF0;
+    border-radius: 20px;
+    transition: box-shadow .3s ease-in-out;
+}
+.col-inside:hover{
+    cursor: pointer;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+    /* from getcssscan.com #24 no */
+}
+.color-topic-h{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.color-topic-p{
+    color: #585859;
+}
+@media only screen and (max-width: 768px) and (orientation: portrait){
+    .color-orange, .color-gray{
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+    .h1-banner{
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+    .btn-all{
+        font-size: 12px;
+        padding: 8px 24px;
+    }
+    .col-md-6{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 768px) and (orientation: landscape){
+
+}
 @media only screen and (min-width: 1500px){
     .navbar-brand{
-        width: 200px;
+        width: 150px;
+        padding: 8px 0;
     }
     .sign-in{
         margin-left: 20px;
+    }
+    .banner{
+        padding:50px 0;
     }
 }
