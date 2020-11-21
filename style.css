@@ -261,6 +261,9 @@ footer li:hover{
     .color-topic-p{
         font-size: 12px;
     }
+    .col-outside-topic{
+        width: 50%;
+    }
 
 
 
