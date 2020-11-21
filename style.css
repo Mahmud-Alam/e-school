@@ -219,7 +219,7 @@ footer li:hover{
 }
 
 
-@media only screen and (max-width: 768px) and (orientation: portrait){
+@media only screen and (max-width: 736px) and (orientation: portrait){
     .color-orange, .color-gray{
         font-size: 14px;
         line-height: 1.5em;
@@ -261,20 +261,46 @@ footer li:hover{
 
 
 
+    .card-title{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .p-card{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .course{
+        margin: 0px 0 50px;
+    }
+
+
+
     .div-testimonial{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: justify;
     }
+    .p-testimonial{
+        font-size: 14px;
+    }
     .hide-testimonial-br{
         display: none;
     }
     .img-testimonial{
         width: 150px;
+        margin-bottom: 20px;
+    }
+
+
+    .div-footer-logo img{
+        width: 50%;
+    }
+    .copyright{
+        font-size: 12px;
     }
 }
-@media only screen and (max-width: 768px) and (orientation: landscape){
+@media only screen and (max-width: 736px) and (orientation: landscape){
     .color-orange, .color-gray{
         font-size: 10px;
         line-height: .5em;
@@ -313,10 +339,528 @@ footer li:hover{
     .row-topic{
         margin-top:30px;
     }
+
+
+
+
+    .card-body{
+        padding-bottom: 0px;
+    }
+    .card-footer{
+        background-color: white;
+        border: none;
+    }
+    .color-purple{
+        color: #413960;
+    }
+    .card-title{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .p-card{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .course{
+        margin: 0px 0 50px;
+    }
+    .btn-buy-course{
+        padding: 5px 16px;
+    }
+    .card-footer{
+        font-size: 8px;
+    }
+    
+    
+
+
+
+
+    .div-testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .p-testimonial{
+        font-size: 14px;
+    }
+    .hide-testimonial-br{
+        display: none;
+    }
+    .img-testimonial{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+
+    .div-footer-logo img{
+        width: 40%;
+    }
+    .copyright{
+        font-size: 12px;
+    }
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait){
+
+@media only screen and (min-width: 737px) and (max-width: 768px) and (orientation: portrait){
+    .color-gray{
+        line-height: 28px;
+    }
+    .col-md-6{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .color-topic-h{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.5em;
+    }
+    .color-topic-p{
+        font-size: 12px;
+    }
+    .col-inside-topic{
+        margin: 10px 0px;
+        padding: 5px 5px;
+        border-radius: 8px;
+    }
+    .col-outside-topic img{
+        width: 100%;
+        padding: 30px;
+    }
+    .col-inside-topic{
+        margin: 20px 5px;
+        padding: 5px 0;
+        border-radius: 10px;
+    }
+    .row-topic{
+        margin-top:30px;
+    }
+    .navbar-brand{
+        width: 200px;
+        padding: 10px 0;
+    }
     .banner{
-        padding: 50px 0;
+        padding: 40px 0;
+    }
+
+
+    .card-body{
+        padding-bottom: 10px;
+    }
+    .card-title{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .p-card{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .course{
+        margin: 0px 0 50px;
+    }
+    .btn-buy-course{
+        padding: 5px 16px;
+    }
+    .card-footer{
+        font-size: 12px;
+    }
+    
+    
+
+
+
+
+    .div-testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .p-testimonial{
+        font-size: 14px;
+    }
+    .hide-testimonial-br{
+        display: none;
+    }
+    .img-testimonial{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    
+    footer p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    footer h4{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    footer ul{
+        padding: 0;
+    }
+    footer li{
+        font-size: 10px;
+        line-height: 24px;
+        list-style-type: none;
+        cursor: pointer;
+    }
+    .margin-footer-li{
+        margin-top: 10px;
+    }
+    .footer-list-icon .footer-icon{
+        width: 30px;
+        margin:5px 5px 0 0;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 737px) and (max-width: 768px) and (orientation: landscape){
+    .color-gray{
+        line-height: 28px;
+    }
+    .col-md-6{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .color-topic-h{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.5em;
+    }
+    .color-topic-p{
+        font-size: 12px;
+    }
+    .col-inside-topic{
+        margin: 10px 0px;
+        padding: 5px 5px;
+        border-radius: 8px;
+    }
+    .col-outside-topic img{
+        width: 100%;
+        padding: 30px;
+    }
+    .col-inside-topic{
+        margin: 20px 5px;
+        padding: 5px 0;
+        border-radius: 10px;
+    }
+    .row-topic{
+        margin-top:30px;
+    }
+    .navbar-brand{
+        width: 200px;
+        padding: 10px 0;
+    }
+    .banner{
+        padding: 40px 0;
+    }
+
+
+    .card-body{
+        padding-bottom: 10px;
+    }
+    .card-title{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .p-card{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .course{
+        margin: 0px 0 50px;
+    }
+    .btn-buy-course{
+        padding: 5px 16px;
+    }
+    .card-footer{
+        font-size: 12px;
+    }
+    
+    
+
+
+
+
+    .div-testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .p-testimonial{
+        font-size: 14px;
+    }
+    .hide-testimonial-br{
+        display: none;
+    }
+    .img-testimonial{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .div-footer-logo img{
+        width: 50%;
+    }
+    footer p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    footer h4{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    footer ul{
+        padding: 0;
+    }
+    footer li{
+        font-size: 10px;
+        line-height: 24px;
+        list-style-type: none;
+        cursor: pointer;
+    }
+    .margin-footer-li{
+        margin-top: 10px;
+    }
+    .footer-list-icon .footer-icon{
+        width: 30px;
+        margin:5px 5px 0 0;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) and (orientation: portrait){
+    .color-gray{
+        line-height: 28px;
+    }
+    .col-md-6{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .color-topic-h{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.5em;
+    }
+    .color-topic-p{
+        font-size: 10px;
+    }
+    .col-outside-topic img{
+        width: 100%;
+        padding: 30px;
+    }
+    .col-inside-topic{
+        margin: 10px 0px;
+        padding: 5px 5px;
+        border-radius: 8px;
+    }
+    .row-topic{
+        margin-top:30px;
+    }
+
+
+
+
+    .card-body{
+        padding-bottom: 10px;
+    }
+    .card-title{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .p-card{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .course{
+        margin: 0px 0 50px;
+    }
+    .btn-buy-course{
+        padding: 5px 16px;
+    }
+    .card-footer{
+        font-size: 12px;
+    }
+    
+    
+
+
+
+
+    .div-testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .p-testimonial{
+        font-size: 14px;
+    }
+    .hide-testimonial-br{
+        display: none;
+    }
+    .img-testimonial{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    footer p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    footer h4{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    footer ul{
+        padding: 0;
+    }
+    footer li{
+        font-size: 10px;
+        line-height: 24px;
+        list-style-type: none;
+        cursor: pointer;
+    }
+    .margin-footer-li{
+        margin-top: 10px;
+    }
+    .footer-list-icon .footer-icon{
+        width: 30px;
+        margin:5px 5px 0 0;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 900px) and (orientation: landscape){
+    .color-gray{
+        line-height: 28px;
+    }
+    .col-md-6{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .color-topic-h{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.5em;
+    }
+    .color-topic-p{
+        font-size: 10px;
+    }
+    .col-outside-topic img{
+        width: 100%;
+        padding: 30px;
+    }
+    .col-inside-topic{
+        margin: 10px 0px;
+        padding: 5px 5px;
+        border-radius: 8px;
+    }
+    .row-topic{
+        margin-top:30px;
+    }
+
+
+
+
+    .card-body{
+        padding-bottom: 10px;
+    }
+    .card-title{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .p-card{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .course{
+        margin: 0px 0 50px;
+    }
+    .btn-buy-course{
+        padding: 5px 16px;
+    }
+    .card-footer{
+        font-size: 12px;
+    }
+    
+    
+
+
+
+
+    .div-testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .p-testimonial{
+        font-size: 14px;
+    }
+    .hide-testimonial-br{
+        display: none;
+    }
+    .img-testimonial{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    footer p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    footer h4{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    footer ul{
+        padding: 0;
+    }
+    footer li{
+        font-size: 10px;
+        line-height: 24px;
+        list-style-type: none;
+        cursor: pointer;
+    }
+    .margin-footer-li{
+        margin-top: 10px;
+    }
+    .footer-list-icon .footer-icon{
+        width: 30px;
+        margin:5px 5px 0 0;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 901px) and (max-width: 1024px) and (orientation: portrait){
+    .navbar-brand{
+        width: 200px;
+        padding: 10px 0;
+    }
+    .banner{
+        padding: 100px 0 50px;
     }
     .col-outside-topic img{
         padding: 30px 60px;
@@ -324,8 +868,26 @@ footer li:hover{
     .row-topic{
         margin-top:30px;
     }
+
+
+    .div-testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .p-testimonial{
+        font-size: 14px;
+    }
+    .hide-testimonial-br{
+        display: none;
+    }
+    .img-testimonial{
+        width: 150px;
+        margin-bottom: 20px;
+    }
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+@media only screen and (min-width: 901px) and (max-width: 1024px) and (orientation: landscape){
     .navbar-brand{
         width: 200px;
         padding: 10px 0;
@@ -334,7 +896,7 @@ footer li:hover{
         font-size: 18px;
     }
     .banner{
-        padding: 50px 0;
+        padding: 80px 0 50px;
     }
     .color-orange, .color-gray{
         font-size: 18px;
@@ -358,17 +920,35 @@ footer li:hover{
     .row-topic{
         margin-top:50px;
     }
+
+
+    .div-testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .p-testimonial{
+        font-size: 14px;
+    }
+    .hide-testimonial-br{
+        display: none;
+    }
+    .img-testimonial{
+        width: 150px;
+        margin-bottom: 20px;
+    }
 }
-@media only screen and (min-width: 1025px) and (max-width: 1400px) and (orientation: landscape){
+@media only screen and (min-width: 1025px) and (max-width: 1400px) and (orientation: portrait){
     .navbar-brand{
-        width: 200px;
+        width: 240px;
         padding: 10px 0;
     }
     .nav-link{
         font-size: 18px;
     }
     .banner{
-        padding: 50px 0;
+        padding: 120px 0 80px;
     }
     .color-orange, .color-gray{
         font-size: 18px;
@@ -392,6 +972,188 @@ footer li:hover{
     .row-topic{
         margin-top:80px;
     }
+
+
+
+
+    .card-body{
+        padding-bottom: 20px;
+    }
+    .course-headtext{
+        font-size: 2.5em;
+    }
+    .card-title{
+        font-size: 2em;
+        font-weight: 700;
+    }
+    .p-card{
+        font-size: 18px;
+        line-height: 2.2em;
+    }
+    .course{
+        margin: 0px 0 50px;
+    }
+    .btn-buy-course{
+        padding: 8px 24px;
+    }
+    .card-footer{
+        font-size: 16px;
+    }
+
+
+
+    .div-testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .p-testimonial{
+        font-size: 18px;
+    }
+    .hide-testimonial-br{
+        display: none;
+    }
+    .img-testimonial{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+
+
+    footer p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    footer h4{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    footer ul{
+        padding: 0;
+    }
+    footer li{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .margin-footer-li{
+        margin-top: 30px;
+    }
+    .footer-list-icon .footer-icon{
+        width: 30px;
+        margin:10px 10px 0 0;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1400px) and (orientation: landscape){
+    .navbar-brand{
+        width: 240px;
+        padding: 10px 0;
+    }
+    .nav-link{
+        font-size: 18px;
+    }
+    .banner{
+        padding: 120px 0 80px;
+    }
+    .color-orange, .color-gray{
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    .btn-sign-in{
+        font-size: 18px;
+    }
+    .btn-all{
+        font-size: 18px;
+    }
+    .col-outside-topic img{
+        width: 100%;
+        padding: 60px;
+    }
+    .col-inside-topic{
+        margin: 10px 5px;
+        padding: 5px 5px;
+        border-radius: 8px;
+    }
+    .row-topic{
+        margin-top:80px;
+    }
+
+
+
+
+    .card-body{
+        padding-bottom: 20px;
+    }
+    .course-headtext{
+        font-size: 2.5em;
+    }
+    .card-title{
+        font-size: 2em;
+        font-weight: 700;
+    }
+    .p-card{
+        font-size: 18px;
+        line-height: 2.2em;
+    }
+    .course{
+        margin: 0px 0 50px;
+    }
+    .btn-buy-course{
+        padding: 8px 24px;
+    }
+    .card-footer{
+        font-size: 16px;
+    }
+
+
+
+    .div-testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .p-testimonial{
+        font-size: 18px;
+    }
+    .hide-testimonial-br{
+        display: none;
+    }
+    .img-testimonial{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+
+
+    footer p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    footer h4{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    footer ul{
+        padding: 0;
+    }
+    footer li{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .margin-footer-li{
+        margin-top: 30px;
+    }
+    .footer-list-icon .footer-icon{
+        width: 30px;
+        margin:10px 10px 0 0;
+    }
+    .copyright{
+        font-size: 12px;
+    }
 }
 @media only screen and (min-width: 1500px){
     .navbar-brand{
@@ -407,5 +1169,30 @@ footer li:hover{
     .img-testimonial{
         width: 120px;
         margin-right: 50px;
+    }
+
+
+
+
+    footer{
+        color: white;
+        background-color: #282531;
+        padding:30px 0 5px;
+    }
+    footer p{
+        font-size: 14px;
+        line-height: 2em;
+    }
+    footer h4{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    footer li{
+        font-size: 14px;
+        line-height: 2em;
+    }
+    .copyright{
+        font-size: 12px;
+        padding-top: 10px;
     }
 }
