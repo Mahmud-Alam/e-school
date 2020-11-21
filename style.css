@@ -218,8 +218,192 @@ footer li:hover{
     color: #21B573;
 }
 
+@media only screen and (max-width: 600px) and (orientation: portrait){
+    .color-orange, .color-gray{
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .h1-banner{
+        font-size: 30px;
+        line-height: 1.5em;
+    }
+    .btn-all{
+        font-size: 16px;
+        padding: 8px 24px;
+    }
+    .col-md-6{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .col-outside-topic img{
+        width: 100%;
+        padding: 15px;
+    }
+    .col-inside-topic{
+        margin: 20px 5px;
+        padding: 5px 0;
+        border-radius: 10px;
+    }
+    .row-topic{
+        margin-top:30px;
+    }
+    .navbar-brand{
+        width: 200px;
+        padding: 10px 0;
+    }
+    .banner{
+        padding: 0 0;
+    }
+    .color-topic-h{
+        font-size: 18px;
+        line-height: 1em;
+    }
+    .color-topic-p{
+        font-size: 12px;
+    }
 
-@media only screen and (max-width: 736px) and (orientation: portrait){
+
+
+    .card-title{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .p-card{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .course{
+        margin: 0px 0 50px;
+    }
+    .btn-buy-course{
+        font-size: 8px;
+        padding: 4px 18px;
+    }
+    .card-footer{
+        font-size: 8px;
+    }
+
+
+
+    .div-testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .p-testimonial{
+        font-size: 14px;
+    }
+    .hide-testimonial-br{
+        display: none;
+    }
+    .img-testimonial{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+
+    .div-footer-logo img{
+        width: 50%;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 600px) and (orientation: landscape){
+    .color-orange, .color-gray{
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .h1-banner{
+        font-size: 30px;
+        line-height: 1.5em;
+    }
+    .btn-all{
+        font-size: 16px;
+        padding: 8px 24px;
+    }
+    .col-md-6{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .col-outside-topic img{
+        width: 100%;
+        padding: 15px;
+    }
+    .col-inside-topic{
+        margin: 20px 5px;
+        padding: 5px 0;
+        border-radius: 10px;
+    }
+    .row-topic{
+        margin-top:30px;
+    }
+    .navbar-brand{
+        width: 200px;
+        padding: 10px 0;
+    }
+    .banner{
+        padding: 0 0;
+    }
+    .color-topic-h{
+        font-size: 18px;
+        line-height: 1em;
+    }
+    .color-topic-p{
+        font-size: 12px;
+    }
+
+
+
+    .card-title{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .p-card{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .course{
+        margin: 0px 0 50px;
+    }
+    .btn-buy-course{
+        font-size: 8px;
+        padding: 4px 18px;
+    }
+    .card-footer{
+        font-size: 8px;
+    }
+
+
+
+    .div-testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .p-testimonial{
+        font-size: 14px;
+    }
+    .hide-testimonial-br{
+        display: none;
+    }
+    .img-testimonial{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+
+    .div-footer-logo img{
+        width: 50%;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 736px) and (orientation: portrait){
     .color-orange, .color-gray{
         font-size: 14px;
         line-height: 1.5em;
@@ -300,7 +484,7 @@ footer li:hover{
         font-size: 12px;
     }
 }
-@media only screen and (max-width: 736px) and (orientation: landscape){
+@media only screen and (min-width: 601px) and (max-width: 736px) and (orientation: landscape){
     .color-orange, .color-gray{
         font-size: 10px;
         line-height: .5em;
@@ -941,7 +1125,7 @@ footer li:hover{
 }
 @media only screen and (min-width: 1025px) and (max-width: 1400px) and (orientation: portrait){
     .navbar-brand{
-        width: 240px;
+        width: 220px;
         padding: 10px 0;
     }
     .nav-link{
@@ -1049,7 +1233,7 @@ footer li:hover{
 }
 @media only screen and (min-width: 1025px) and (max-width: 1400px) and (orientation: landscape){
     .navbar-brand{
-        width: 240px;
+        width: 220px;
         padding: 10px 0;
     }
     .nav-link{
